@@ -13,16 +13,16 @@
       <header id="header">
         <a href="#" class="logo"></a>
         <ul>
-          <li><a href="#" class="active">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#destination">Destination</a></li>
-          <li><a href="#guide">Guide</a></li>
-          <li><a href="#other">Other</a></li>
+            <li><a href="#" class="active" onclick="setActive(this)">Home</a></li>
+            <li><a href="#about" onclick="setActive(this)">About Us</a></li>
+            <li><a href="#destination" onclick="setActive(this)">Destination</a></li>
+            <li><a href="#guide" onclick="setActive(this)">Guide</a></li>
+            <li><a href="#other" onclick="setActive(this)">Other</a></li>
         </ul>
-      </header>
-
+    </header>
+    
       <!-- CATCHPHRASE -->
-      <section>
+      <section id="home">
         <h2 id="text">PREPARE YOURSELF FOR ADVENTURE<br />PLAN IT WITH US</h2>
         <a href="#about" id="btn-home">Explore</a>
         <img src="images/Background.png" alt="bg" />
@@ -30,7 +30,7 @@
 
       <!-- ABOUT US -->
       <div class="about" id="about">
-        <h2 class="abouth2">About Us</h2>
+        <h1 class="abouth2">ABOUT US</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor
           ultricies risus nec porta. Aenean ultrices aliquet neque. Quisque
@@ -48,7 +48,7 @@
           ac efficitur purus efficitur non. Nulla quis hendrerit quam. Curabitur
           ullamcorper, arcu nec mollis gravida, sem dolor gravida turpis, ut
           bibendum sapien ante vitae mi. Duis sit amet tempor dolor, et dictum
-          nisi. Sed tincidunt nisi nibh. Curabitur ac nisl dui. Suspendisse ante
+          nisi. Sed tincidunt nisi nibh.<br><br>Curabitur ac nisl dui. Suspendisse ante
           ipsum, condimentum nec imperdiet a, faucibus eu odio. Suspendisse
           tincidunt, urna vel porttitor vulputate, leo arcu molestie arcu, eget
           efficitur nisl enim ac metus. Ut non diam eu odio commodo ultrices
@@ -60,9 +60,27 @@
           nec, pharetra sed lorem.
         </p>
       </div>
-    </div>
 
+      <!-- DESTINATION -->
+      <div class="destination" id="destination">
+        <h1 class="destination2">WHERE DO YOU WANT TO GO?</h1>
+      </div>
+
+      <!-- GUIDE -->
+      <div class="guide" id="guide">
+        <h1 class="guide2">OUR<br>SERVICES!</h1>
+        <h2 class="guide3">To accommodate you in your adventure we provide you some of our best tour guide and place to stay by our partners</h2>
+      </div>
+
+      <footer class="other" id="other">
+        <p>test</p>
+      </footer>
+
+
+    </div>
     <!-- SCRIPT -->
     <script src="script.js"></script>
   </body>
 </html>
+
+<!-- test -->
